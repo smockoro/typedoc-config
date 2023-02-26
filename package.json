@@ -1,0 +1,30 @@
+{
+  "name": "@smockoro/typedoc-config",
+  "description": "shared typescript configration",
+  "version": "0.1.0",
+  "scripts": {
+    "lint:editorconfig": "npx editorconfig-checker",
+    "lint:license": "npx license-checker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smockoro/typedoc-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "typedoc",
+    "typescript"
+  ],
+  "author": "smockoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smockoro/typedoc-config/issues"
+  },
+  "homepage": "https://github.com/smockoro/typedoc-config#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^5.0.1",
+    "license-checker": "^25.0.1"
+  }
+}
